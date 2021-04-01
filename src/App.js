@@ -685,11 +685,11 @@ function App() {
       <div className='task-bar'>
         <div className ='taskbar-items'> 
           <input type='image' src={Message} alt='notes-icon' id='taskbar-icon' onClick={() => setShow({MessageApp: !show.MessageApp})}/>
-          <input type='image' src={News} alt='notes-icon' id='taskbar-icon'/>
+          <img src={News} alt='notes-icon' id='taskbar-icon'/>
           <input type='image' src={Appstore} alt='appstore-logo' id='taskbar-icon' onClick={() => setShow({appstore: !show.appstore})}/>
           <input type='image' src={Notes} alt='notes-icon' id='taskbar-icon' onClick={() => setShow({notes: !show.notes})}/>
           <input type ='image' src={Safari} alt='safari-logo' id='taskbar-icon' onClick={() => setShow({internet: !show.internet})}/>
-          <input type='image' src={Folder} alt='notes-icon' id='taskbar-icon'/>
+          <img src={Folder} alt='notes-icon' id='taskbar-icon'/>
           <input type='image' src={Bin} alt='notes-icon' id='taskbar-icon' onClick={() => setShow({bin: !show.bin})}/>
         </div>
       </div>

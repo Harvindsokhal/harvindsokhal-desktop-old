@@ -115,6 +115,11 @@ body, html{
   transition: all 0.09s linear;
 }
 
+.task-bar .taskbar-items img:hover {
+  transform: translateY(-15px) scale(1.2);
+  transition: all 0.09s linear;
+}
+
 
 #taskbar-icon{
   height: 60px;
