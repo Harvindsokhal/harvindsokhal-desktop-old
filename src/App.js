@@ -124,7 +124,7 @@ function App() {
             <div className='notes'>
               <ul>
                   <li>-Python</li>
-                  <li>-Java Netbeans</li>
+                  <li>-Java</li>
                   <li>-HTML/CSS</li>
                   <li>-Shell scripting</li>
               </ul>
